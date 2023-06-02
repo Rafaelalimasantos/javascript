@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex025/Acesso</title>
+    <link rel="stylesheet" href="/javascript-main/styleEx.css">
+    <script defer src="/ex025/ex025.js"></script>
+    <style>
+        .img {
+            width: 150px;
+        }
+
+        #resultado {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Acesso ao sistema</h1>
+    </header>
+
+    <section class="ex">
+        <label>Usuário</label>
+        <input type="Usuario" id="usuarioLogin" placeholder="Digite o seu login">
+        <br>
+        <br>
+        <label>Senha</label>
+        <input type="password" id="senhaLogin" placeholder="Digite a Senha">
+        <br>
+        <br>
+        <button onclick="Entrar()">Entrar</button>
+        <button onclick="loginCadastrar()">Cadastrar</button>
+
+    </section>
+
+    <footer>
+        <h3>Sesi / Senai - Curso Desenvolvimento de Sistemas</h3>
+    </footer>
+</body>
+</html>

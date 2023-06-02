@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex025/Cadastro</title>
+    <link rel="stylesheet" href="/javascript-main/styleEx.css">
+    <script defer src="ex025.js"></script>
+    <style>
+        .img {
+            width: 150px;
+        }
+        #resultado {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Usuários</h1>
+    </header>
+
+    <section class="ex">
+        <label>Nome</label>
+        <input type="text" id="nome" placeholder="Digite o seu Nome">
+        <br>
+        <br>
+        <label>Usuario</label>
+        <input type="Usuario" id="login" placeholder="Digite o seu login">
+        <br>
+        <br>
+        <label>Senha</label>
+        <input type="password" id="senha" placeholder="Digite a Senha">
+        <br>
+        <br>
+        <label>Senha</label>
+        <input type="password" id="confirmarSenha" placeholder="Confirme sua senha">
+        <br>
+        <br>
+        <button onclick="botaoCadastrar()">Cadastrar usuário</button>
+        
+        <br>
+        <h1>Lista de usuários cadastrados</h1>
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+        <h3>Sesi / Senai - Curso Desenvolvimento de Sistemas</h3>
+    </footer>
+
+</body>
+</html>
